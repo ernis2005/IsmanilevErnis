@@ -32,7 +32,7 @@
     .Info {
       h3 {
         color: var(--Dark-Color, #21243d);
-        font-family: 'Roboto', sans-serif;
+        font-family: 'PT Sans', sans-serif;
         font-size: 25px;
         font-style: normal;
         font-weight: 500;
@@ -52,13 +52,20 @@
       }
 
       p {
-        color: var(--Dark-Color, #21243d);
-        font-family: 'Roboto', sans-serif;
-        font-size: 14px;
+        color: var(--Dark-Color, #21243D);
+        font-family: 'PT Sans', sans-serif;
+
+        font-size: 16px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 300;
         line-height: normal;
         max-width: 500px;
+        @media screen and (max-width:426px) {
+         
+          
+              font-size: 13px !important;
+          
+       }
       }
     }
   }

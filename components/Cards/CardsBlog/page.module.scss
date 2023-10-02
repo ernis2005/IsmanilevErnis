@@ -1,23 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
-.Cards{
+
+.Cards {
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: space-between;
     gap: 1%;
     row-gap: 10px;
+
     @media screen and (max-width:951px) {
-       display: grid;
-       grid-template-columns: 50% 50%;
-        .Card{
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+        .Card {
             max-width: 100% !important;
         }
     }
+
     @media screen and (max-width:649px) {
         display: grid;
         grid-template-columns: 100%;
     }
 }
+
 .Card {
     max-width: 100%;
     background-color: #fff;
@@ -25,26 +30,30 @@
     padding: 20px;
 
     gap: 20px;
-    font-family: "Roboto", sans-serif;
- @media screen and (max-width:426px) {
-    h2{
-        font-size: 20px !important;
+    font-family: 'PT Sans', sans-serif;
+
+    @media screen and (max-width:426px) {
+        h2 {
+            font-size: 20px !important;
+        }
+
+        p {
+            font-size: 13px !important;
+        }
     }
-    p{
-        font-size: 13px !important;
-    }
- }
+
     h2 {
         color: var(--Dark-Color, #21243D);
-
         font-size: 26px;
         font-weight: 400;
-        font-family: "Roboto", sans-serif;
+        font-family: 'PT Sans', sans-serif;
+
     }
 
     p {
         color: var(--Dark-Color, #21243D);
-        font-family: "Roboto", sans-serif;
+        font-family: 'PT Sans', sans-serif;
+
         font-size: 16px;
         font-style: normal;
         font-weight: 300;
