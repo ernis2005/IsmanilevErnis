@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+.main {
+    display: block;
+    justify-content: center;
+
+    .block {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        text-align: left;
+        margin: 0 auto;
+        gap: 20px;
+
+        padding-top: 40px;
+        @media screen and (max-width:524px) {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column-reverse;
+            div{
+                margin: 0 auto;
+            }
+        }
+        div {
+            @media screen and (max-width: 700px) {
+                h2 {
+                    font-size: 26px !important;
+                }
+            }
+            h2 {
+                font-size: 44px;
+                font-family: "Lobster", cursive;
+                margin: 0 auto;
+                text-transform: capitalize;
+                letter-spacing: 3px;
+            }
+            p {
+                padding: 17px 0px;
+                max-width: 500px;
+                font-size: 17px;
+                font-family: "Roboto", sans-serif;
+            }
+            button {
+                min-width: 190px;
+                min-height: 50px;
+                position: relative;
+                background-color: #ff6464 !important;
+                border: none;
+                border-radius: 10px;
+                color: black;
+                a {
+                    margin: 0 auto;
+                    padding: 0 auto;
+                    text-decoration: none;
+                }
+                p {
+                    width: 100%;
+                    padding: 0;
+                    margin: 0;
+                    color: #fff;
+                }
+            }
+        }
+        .image {
+            background-color: red;
+            width: 250px;
+            position: relative;
+            border-radius: 50%;
+            height: 250px;
+            z-index: 2;
+            @media screen and (max-width: 700px) {
+                width: 200px;
+                height: 200px;
+            }
+            img {
+                z-index: 1;
+                border-radius: 50%;
+            }
+        }
+    }
+    .blockBlog{
+        width: 100%;
+        background-color: #EDF7FA;
+        margin-top: 20px;
+      .blockBlogInfo{
+        margin: 0 auto;
+        samp{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            p{
+                font-size: 20px;
+                font-family: "Lobster", cursive;
+         
+                text-transform: capitalize;
+                letter-spacing: 3px;
+            }
+            button{
+                background-color: #0000;
+                border: none;
+                p{
+                    font-size: 15px;
+                    font-family: "Roboto", sans-serif;
+                    color: #00A8CC;
+                }
+            }
+        }
+      }
+    }
+    .BlockIWorked{
+margin: 0 auto;
+p {
+    font-size: 20px;
+    font-family: "Lobster", cursive;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+
+}
+    }
+}
