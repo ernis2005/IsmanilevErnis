@@ -3,9 +3,10 @@
 .Cards {
   width: 100%;
   margin: 0 auto;
+  display: block;
   .Card {
     width: 100%;
-    display: flex;
+    display: flex; padding-top: 5px;
     gap: 20px;
     border-bottom: 1px solid #e0e0e0;
     padding-bottom: 5px;
@@ -41,7 +42,7 @@
         text-align: center;
         align-items: center;
         color: #fff;
-        font-size: 14px;
+        font-size: 16px;
       }
       p {
         color: var(--Dark-Color, #21243d);
