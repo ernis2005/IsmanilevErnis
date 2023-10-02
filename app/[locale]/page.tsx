@@ -1,9 +1,9 @@
 import { TextH2, TextP } from '@/components/TextTranslate/page';
 import styles from './page.module.scss';
 import Image from 'next/image';
-import { CardPageBlog } from '@/components/Cards/CardsBlog/CardPageBlog';
+// import { CardPageBlog } from '@/components/Cards/CardsBlog/CardPageBlog';
 import { CardWorked } from '@/components/Cards/CardWorked/CardWorked';
-const data: string[] = ['1', '3', '3', '3']
+// const data: string[] = ['1', '3', '3', '3']
 export default function Home() {
   return (
     <div className={styles.main}>
