@@ -1,9 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
 
 @font-face {
     font-family: Pacifico;
     src: url(/fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family: Lobster;
+    src: url(/fonts/Lobster-Regular.ttf);
 }
 .body {
     margin: 0 auto;
